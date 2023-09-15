@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container py-3">
+            <div class="col p-3 mx-auto" id="reg-wrap">
+                <h3 class="text-center">Registration</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="text">Full Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Full Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Father Name:</label>
+                        <input type="text" class="form-control" id="fname" placeholder="Father Name" name="fname">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Mother Name:</label>
+                        <input type="text" class="form-control" id="mname" placeholder="Mother Name" name="mname">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="text">Email:</label>
+                                <input type="text" class="form-control" id="email" placeholder="Email" name="email">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="text">Mobile:</label>
+                                <input type="text" class="form-control" id="dob" placeholder="Modile" name="mob">
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="form-group">
+                        <label for="text">Date of Birst:</label>
+                        <input type="date" class="form-control" id="dob" placeholder="Date of Birst" name="name">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="sel1">Gender:</label>
+                                <select class="form-control" id="sel1">
+                                    <option>Select</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Transegender</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="sel1">Select Course:</label>
+                                <select class="form-control" id="sel1">
+                                    <option>Select</option>
+                                    <option>DCA</option>
+                                    <option>PGDCA</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>                 
+                    <button type="submit" class="btn btn-primary p-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

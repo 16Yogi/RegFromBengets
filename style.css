@@ -1,0 +1,17 @@
+#reg-wrap{
+    height: auto;
+    width: 50%;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(255, 255, 255); */
+}
+#reg-wrap label{
+    font-weight: 400;
+}
+
+#reg-wrap button{
+    width: 100%;
+    font-weight: 700;
+    margin: 8px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
